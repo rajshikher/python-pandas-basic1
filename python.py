@@ -5,7 +5,6 @@ class Smartphone():
 
     def __init__(self, price, brand, camera, os, ram):
         print("pehle yahan")
-        # super().__init__(price, brand, camera)
         self.os = os
         self.ram = ram
         print("inside the smartphone")
