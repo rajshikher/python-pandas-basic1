@@ -13,6 +13,7 @@ rows = cursor.fetchall()
 # Display the fetched data.
 for row in rows:
     print(row)
+    print("Hello")
 
 # Don't forget to close the connection when done.
 conn.close()
